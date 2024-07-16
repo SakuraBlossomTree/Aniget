@@ -45,11 +45,25 @@ def get_animes(search_url):
         else:
             titles["links"].append(url)
             titles["titles"].append(title)
-    
+
+
     return titles
+
 
 search_url = search_anime(anime_name)
 titles = get_animes(search_url)
-# print(titles)
+print(titles)
 selected_anime = fzf.prompt(titles["titles"])
 print(selected_anime[0])
+selected_anime = selected_anime[0]
+if selected_anime[0]:
+    title_index= titles["titles"].index(selected_anime)
+    
+    corresponding_link = titles["links"][title_index]
+
+    print(f"You selected: {selected_anime}")
+    print(f"Corresponding Link: {corresponding_link}")
+
+
+
+

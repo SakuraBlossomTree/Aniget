@@ -23,6 +23,7 @@ or
 
 Run anime-downloader-rewrite.py for a cleaner menu (In developement still)
     ```python3 anime-downloader-rewrite.py```
+This script will create a torrent file in the anime directory and download the files using your prefered torrent downloader
 
 ### Rewrite
 

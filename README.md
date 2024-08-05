@@ -19,7 +19,10 @@ A script which I am writing for me to watch animes without sities going down
 4. Run anime-downloader.py
     ```python3 anime-downloader.py```
 
-# Don't run anime-downloader-rewrite.py it is still development
+or 
+
+Run anime-downloader-rewrite.py for a cleaner menu (In developement still)
+    ```python3 anime-downloader-rewrite.py```
 
 ### Rewrite
 
